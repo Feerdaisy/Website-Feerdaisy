@@ -1,0 +1,198 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+     background-color: #f3f3f3;
+    /* background-image: url(background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; */
+    color: #333;
+}
+
+header {
+    background-color: #f3f3f3;
+    color:  #555555;
+    padding: 1rem;
+    text-align: center;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    align-items: center;
+    height: 100px;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.8);
+    
+}
+
+
+.container { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+
+
+
+
+
+.nav-foto { 
+    height: 5rem;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+    width: 94px;
+    height: 94px;
+}
+.nav-foto  :hover { 
+    transform: scale(1.1);
+}
+
+
+.nav { 
+
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+.container-wa { 
+    padding: 20px;
+    margin: 20px 0;
+    background-image: url(wa-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container-tiktok { 
+    padding: 20px;
+    margin: 20px 0;
+    background-image: url(tiktok-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.8);
+}
+
+.container-ig { 
+    padding: 20px;
+    margin: 20px 0;
+    background-image: url(ig-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section h2 {
+    color: #333;
+
+}
+
+
+
+.foto-wa { 
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.1s ease-in-out;
+}
+
+.animation { 
+    height: 5.7rem;
+    width: 5.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.animation :hover { 
+    transform: scale(1.2);
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f3f3f3;
+    color: rgb(59, 59, 59);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    box-shadow: 8px 0px 10px rgba(0, 0, 0, 0.5);
+}
